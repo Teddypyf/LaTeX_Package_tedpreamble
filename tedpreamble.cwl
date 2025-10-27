@@ -28,7 +28,7 @@
 
 #keyvals:\usepackage/tedpreamble
 options%keyvals#c
- paper, top##L, bottom##L, left##L, right##L, headheight##L, linespread,
+ paper=#a4paper,a5paper,a3paper top##L, bottom##L, left##L, right##L, headheight##L, linespread=#1,1.5,2,
  languages=#text,
  draft=#true,false,
  defaultfonts=#true,false,
