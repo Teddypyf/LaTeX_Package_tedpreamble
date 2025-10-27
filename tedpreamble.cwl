@@ -171,9 +171,14 @@ options%keyvals#c
 \end{da_corrections}
 \begin{da_remark}
 \end{da_remark}
+
 \begin{box_def}
 \end{box_def}
 \begin{box_thm}
+\end{box_thm}
+\begin{box_def}[title%title]
+\end{box_def}
+\begin{box_thm}[title%title]
 \end{box_thm}
 
 # Math helpers (mark as math-only where appropriate)
