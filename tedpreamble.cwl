@@ -19,6 +19,7 @@
 #include:float
 #include:verbatim
 #include:dirtytalk
+#include:ulem
 
 # Then your package's own include
 #include:tedpreamble
