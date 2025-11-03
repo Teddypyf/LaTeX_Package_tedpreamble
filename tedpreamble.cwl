@@ -162,12 +162,11 @@ options%keyvals#c
 \C#m
 \F#m
 \E#m
-\func{map%cmd}{domain%text}{codomain%text}
-\og
-\qog
-\qeller
-\qforalle
-\tqc
+\func{map%cmd}{domain%text}{codomain%text}#m
+\og#m
+\qog#m
+\qeller#m
+\qforalle#m
 \bimplies#m
 
 # Pride flag helpers
