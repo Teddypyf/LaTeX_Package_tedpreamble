@@ -179,14 +179,18 @@ options%keyvals#c
 \begin{da_remark}
 \end{da_remark}
 
-\begin{box_def}
-\end{box_def}
-\begin{box_thm}
-\end{box_thm}
 \begin{box_def}[title%title]
 \end{box_def}
 \begin{box_thm}[title%title]
 \end{box_thm}
+\begin{box_lem}[title%title]
+\end{box_lem}
+\begin{box_def}
+\end{box_def}
+\begin{box_thm}
+\end{box_thm}
+\begin{box_lem}
+\end{box_lem}
 
 # Math helpers (mark as math-only where appropriate)
 \N#m
