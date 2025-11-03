@@ -164,6 +164,7 @@
 % 彩色盒子与定理盒
 \RequirePackage[most]{tcolorbox}
 \tcbuselibrary{theorems,skins,breakable}
+\usepackage{coloredtheorem}
 
 % 化学式
 \RequirePackage[version=4]{mhchem}
@@ -358,6 +359,9 @@ headpunct={}
 	skin last=enhanced,
 }
 
+\cthnewtheorem{_thm}{Theorem}[coltitle=white, colback=white, colframe=m4]
+\cthnewtheorem{_def}{Definition}[coltitle=white, colback=white, colframe=letbane]
+\cthnewtheorem{_lem}{Lemma}[coltitle=white, colback=white, colframe=Clinje]
 
 % 无编号标题辅助命令
 \newcommand*{\sectionnonumber}[1]{\section*{#1}\addcontentsline{toc}{section}{#1}}
