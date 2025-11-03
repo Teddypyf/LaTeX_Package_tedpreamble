@@ -89,9 +89,6 @@
 % 说明: 保留原有命名与配色.
 \RequirePackage[table,xcdraw]{xcolor}
 \newcommand\showcolour[1]{\fcolorbox{black}{#1}{\makebox[2em]{\phantom{M}}}~\makebox[5.5em][l]{\color{#1}#1}}
-
-% 通用
-\definecolor{invpurple}{HTML}{40ffbf}
 % 水
 \providecolor{水蓝}{HTML}{d2f0f4}
 % 蓝
@@ -268,6 +265,7 @@ headpunct={:}, postheadspace=0.5em
 \theoremstyle{lemthm}
 \newtheorem{lemma}[theorem]{Lemma}
 \newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{proposition}[theorem]{Proposition}
 
 \theoremstyle{defthm}
 \newtheorem{definition}[theorem]{Definition}
@@ -289,6 +287,7 @@ headpunct={:}, postheadspace=0.5em
 \theoremstyle{lemthm}
 \newtheorem{ch_lemma}[theorem]{引理}
 \newtheorem{ch_corollary}[theorem]{推论}
+\newtheorem{ch_proposition}[theorem]{命题}
 
 \theoremstyle{defthm}
 \newtheorem{ch_definition}[theorem]{定义}
@@ -301,35 +300,6 @@ headpunct={:}, postheadspace=0.5em
 \newtheorem*{ch_corrections}{更正}
 \newtheorem*{ch_remark}{注意}
 \newtheorem*{ch_observation}{观察到}
-
-% Dansk
-\theoremstyle{bluethm}
-\newtheorem{da_theorem}[theorem]{Sætning}
-\newtheorem{da_lemma}[theorem]{Lemma}
-\newtheorem{da_corollary}[theorem]{Korollar}
-\newtheorem{da_observation}[theorem]{Observation}
-
-\theoremstyle{yinredthm}
-\newtheorem{da_definition}[theorem]{Definition}
-
-\theoremstyle{examplethm}
-\newtheorem{da_example}{Eksempel}
-
-\theoremstyle{notationthm}
-\newtheorem{da_notation}{Notation}
-\newtheorem*{da_notation*}{Notation}
-\newtheorem{da_corrections}{Rettelser}
-
-\theoremstyle{greenthm}
-\newtheorem*{da_remark}{Bemækning}
-
-% 定理指令化
-%\newcommand{\definition}[1]{\begin{definition} #1 \end{definition}}
-%\newcommand{\theorem}[1]{\begin{theorem} #1 \end{theorem}}
-%\newcommand{\lemma}[1]{\begin{lemma} #1 \end{lemma}}
-%\newcommand{\corollary}[1]{\begin{corollary} #1 \end{corollary}}
-%\newcommand{\proposition}[1]{\begin{proposition} #1 \end{proposition}}
-%\newcommand{\example}[1]{\begin{example} #1 \end{example}}
 
 % 证明与目录标题本地化
 \AtBeginDocument{\renewcommand\proofname{{\color{宝蓝}Proof.}}}

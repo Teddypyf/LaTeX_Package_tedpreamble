@@ -103,37 +103,21 @@ options%keyvals#c
 \end{lemma}
 \begin{corollary}[title%title]
 \end{corollary}
-\begin{observation}[title%title]
-\end{observation}
+\begin{observation*}
+\end{observation*}
 \begin{definition}[title%title]
 \end{definition}
 \begin{example}[title%title]
 \end{example}
-\begin{notation}
-\end{notation}
 \begin{notation*}
 \end{notation*}
-\begin{corrections}
-\end{corrections}
-\begin{remark}
-\end{remark}
+\begin{corrections*}
+\end{corrections*}
+\begin{remark*}
+\end{remark*}
 \begin{proposition}[title%title]
 \end{proposition}
 
-\begin{theorem}
-\end{theorem}
-\begin{lemma}
-\end{lemma}
-\begin{corollary}
-\end{corollary}
-\begin{observation}
-\end{observation}
-\begin{definition}
-\end{definition}
-\begin{example}
-\end{example}
-\begin{proposition}
-\end{proposition}
 
 # Theorem-like environments (中文)
 \begin{ch_theorem}[title%title]
@@ -156,28 +140,6 @@ options%keyvals#c
 \end{ch_corrections}
 \begin{ch_remark}
 \end{ch_remark}
-
-# Theorem-like environments (Dansk)
-\begin{da_theorem}[title%title]
-\end{da_theorem}
-\begin{da_lemma}[title%title]
-\end{da_lemma}
-\begin{da_corollary}[title%title]
-\end{da_corollary}
-\begin{da_observation}[title%title]
-\end{da_observation}
-\begin{da_definition}[title%title]
-\end{da_definition}
-\begin{da_example}[title%title]
-\end{da_example}
-\begin{da_notation}
-\end{da_notation}
-\begin{da_notation*}
-\end{da_notation*}
-\begin{da_corrections}
-\end{da_corrections}
-\begin{da_remark}
-\end{da_remark}
 
 \begin{box_def}[title%title]
 \end{box_def}
@@ -212,9 +174,9 @@ options%keyvals#c
 \mtfrule{width%l}{height%l}
 \mtfflag
 
+\showcolour{color#%color}
+
 %color
-# 通用
-invpurple
 # 水
 水蓝
 # 蓝
