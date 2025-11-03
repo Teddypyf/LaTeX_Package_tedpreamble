@@ -206,47 +206,47 @@
 
 % 定理样式
 % 说明: \NAME \NUMBER \NOTE 为 thmtools 的占位符.
-% 蓝: 定理族(斜体正文)
+% 定理族(斜体正文)
 \declaretheoremstyle[
 within=section,
 spaceabove=3pt, spacebelow=3pt,
-headfont=\bfseries\color{绀青},
+headfont=\bfseries\color{m4},
 notefont=\bfseries, notebraces={(}{)},
 bodyfont=\itshape,
 headformat=\uline{\NAME\ \NUMBER\ \NOTE},
 headpunct={:}, postheadspace=0.5em
 ]{bluethm}
 
-% 红: 定义(直立正文)
+% 定义(直立正文)
 \declaretheoremstyle[
 within=section,
 spaceabove=3pt, spacebelow=3pt,
-headfont=\bfseries\color{朱红},
+headfont=\bfseries\color{letbane},
 notefont=\bfseries, notebraces={(}{)},
 bodyfont=\mdseries,
-headformat=\uline{\NAME\ \NUMBER\ \NOTE},
+headformat={\NAME\ \NUMBER\ \NOTE},
 headpunct={:}, postheadspace=0.5em
-]{yinredthm}
+]{defthm}
 
-% 绿: 备注(斜体正文)
+% 备注(斜体正文)
 \declaretheoremstyle[
 within=section,
 spaceabove=3pt, spacebelow=3pt,
-headfont=\bfseries\color{松绿},
+headfont=\bfseries\color{Clinje},
 notefont=\bfseries, notebraces={(}{)},
 bodyfont=\itshape,
-headformat=\uline{\NAME\ \NUMBER\ \NOTE},
+headformat={\NAME\ \NUMBER\ \NOTE},
 headpunct={:}, postheadspace=0.5em
-]{greenthm}
+]{lemthm}
 
 % 绿(直立): 示例
 \declaretheoremstyle[
 within=section,
 spaceabove=3pt, spacebelow=3pt,
-headfont=\bfseries\color{松绿},
+headfont=\bfseries\color{Bxlinje},
 notefont=\bfseries, notebraces={(}{)},
 bodyfont=\mdseries,
-headformat=\uline{\NAME\ \NUMBER\ \NOTE},
+headformat={\NAME\ \NUMBER\ \NOTE},
 headpunct={:}, postheadspace=0.5em
 ]{examplethm}
 
@@ -254,54 +254,53 @@ headpunct={:}, postheadspace=0.5em
 \declaretheoremstyle[
 within=section,
 spaceabove=3pt, spacebelow=3pt,
-headfont=\bfseries\color{藏蓝},
+headfont=\bfseries\color{Elinje},
 notefont=\bfseries, notebraces={(}{)},
 bodyfont=\mdseries,
-headformat=\uline{\NAME\ \NUMBER\ \NOTE},
+headformat={\NAME\ \NUMBER\ \NOTE},
 headpunct={:}, postheadspace=0.5em
 ]{notationthm}
 
 % English
 \theoremstyle{bluethm}
 \newtheorem{theorem}{Theorem}[section]
+
+\theoremstyle{lemthm}
 \newtheorem{lemma}[theorem]{Lemma}
 \newtheorem{corollary}[theorem]{Corollary}
-\newtheorem{observation}[theorem]{Observation}
 
-\theoremstyle{yinredthm}
+\theoremstyle{defthm}
 \newtheorem{definition}[theorem]{Definition}
 
 \theoremstyle{examplethm}
 \newtheorem{example}{Example}
 
 \theoremstyle{notationthm}
-\newtheorem{notation}{Notation}
-\newtheorem*{notation*}{Notation}
-\newtheorem{corrections}{Corrections}
-
-\theoremstyle{greenthm}
+\newtheorem*{notation}{Notation}
+\newtheorem*{corrections}{Corrections}
 \newtheorem*{remark}{Remark}
+\newtheorem*{observation}{Observation}
+
 
 % 中文
 \theoremstyle{bluethm}
 \newtheorem{ch_theorem}[theorem]{定理}
+
+\theoremstyle{lemthm}
 \newtheorem{ch_lemma}[theorem]{引理}
 \newtheorem{ch_corollary}[theorem]{推论}
-\newtheorem{ch_observation}[theorem]{观察}
 
-\theoremstyle{yinredthm}
+\theoremstyle{defthm}
 \newtheorem{ch_definition}[theorem]{定义}
 
 \theoremstyle{examplethm}
 \newtheorem{ch_example}{例子}
 
 \theoremstyle{notationthm}
-\newtheorem{ch_notation}{记号}
-\newtheorem*{ch_notation*}{记号}
-\newtheorem{ch_corrections}{更正}
-
-\theoremstyle{greenthm}
+\newtheorem*{ch_notation}{记号}
+\newtheorem*{ch_corrections}{更正}
 \newtheorem*{ch_remark}{注意}
+\newtheorem*{ch_observation}{观察到}
 
 % Dansk
 \theoremstyle{bluethm}
