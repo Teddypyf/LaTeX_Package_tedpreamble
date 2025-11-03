@@ -263,6 +263,12 @@ m2
 m3
 m4
 letbane
-
+Alinje
+Blinje
+Bxlinje
+Clinje
+Elinje
+Flinje
+Hlinje
 %end
 

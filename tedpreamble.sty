@@ -144,6 +144,13 @@
 \providecolor{m2}{HTML}{F6C744}
 \providecolor{m1}{HTML}{3E8A4A}
 \providecolor{letbane}{HTML}{56A461}
+\providecolor{Alinje}{HTML}{14A4DD}
+\providecolor{Blinje}{HTML}{4BAA47}
+\providecolor{Bxlinje}{HTML}{78C243}
+\providecolor{Clinje}{HTML}{F68620}
+\providecolor{Elinje}{HTML}{6C67AF}
+\providecolor{Flinje}{HTML}{FFC226}
+\providecolor{Hlinje}{HTML}{EF4032}
 
 % 图形
 % 说明: 草稿模式不嵌入图片以加快编译.
@@ -364,6 +371,16 @@ headpunct={:}, postheadspace=0.5em
 \newtcolorbox{box_thm}[1][]{
 	coltitle=white,
 	colframe=m4,
+	title={#1},
+	enhanced,
+	breakable,
+	skin first=enhanced,
+	skin middle=enhanced,
+	skin last=enhanced,
+}
+\newtcolorbox{box_lem}[1][]{
+	coltitle=white,
+	colframe=Clinje,
 	title={#1},
 	enhanced,
 	breakable,
