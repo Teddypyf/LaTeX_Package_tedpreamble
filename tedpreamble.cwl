@@ -154,12 +154,6 @@ options%keyvals#c
 \begin{box_lem}
 \end{box_lem}
 
-\begin{cth_thm}{title%title}
-\end{cth_thm}
-\begin{cth_def}{title%title}
-\end{cth_def}
-\begin{cth_lem}{title%title}
-\end{cth_lem}
 \begin{cth_thm*}{title%title}
 \end{cth_thm*}
 \begin{cth_def*}{title%title}
