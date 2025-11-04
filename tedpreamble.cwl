@@ -160,12 +160,16 @@ options%keyvals#c
 \end{cth_def*}
 \begin{cth_lem*}{title%title}
 \end{cth_lem*}
+\begin{cth_notation*}{title%title}
+\end{cth_notation*}
 \begin{cth_ch_thm*}{title%title}
 \end{cth_ch_thm*}
 \begin{cth_ch_def*}{title%title}
 \end{cth_ch_def*}
 \begin{cth_ch_lem*}{title%title}
 \end{cth_ch_lem*}
+\begin{cth_ch_notation*}{title%title}
+\end{cth_ch_notation*}
 
 # Math helpers (mark as math-only where appropriate)
 \N#m
