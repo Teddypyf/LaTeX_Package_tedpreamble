@@ -73,6 +73,10 @@ options%keyvals#c
 \subsectionnonumber{title%title}
 \subsubsectionnonumber{title%title}
 
+# Deleteline
+\deleteline{text%text}
+\textdl{text%text}
+
 # ---------------------------------------
 # Environments provided/defined by the package
 # (TeXstudio picks up begin/end pairs from CWL.
